@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, redirect
 
 app = Flask(__name__)
 
+#Electives List
 ELECTIVES = ["Commerce", "Computing Technology", "Drama"]
 
 elective_dict = {}
